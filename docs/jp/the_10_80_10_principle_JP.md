@@ -6,6 +6,10 @@
 [![Status](https://img.shields.io/badge/Status-Book_In_Progress-orange)](https://github.com/Leading-AI-IO/the-10-80-10-principle)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](http://creativecommons.org/licenses/by/4.0/)
 
+<p align="left">
+  <img src="../../assets/ogp_design.png" width="80%">
+</p>
+
 ---
 
 # 序章: あなたは今、AIに使われている
