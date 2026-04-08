@@ -1,15 +1,16 @@
 # 人とAIの共創黄金比「10:80:10の法則」
 
-**The 10-80-10 Principle: The Optimal Balance for Human-AI Synergy**
+The AI-Era Advantage: 5x Your Output Quality & Quantity with the 10/80/10 Rule of Human-AI Co-Creation. <br>
+AI時代だからこそ実現可能になったこと。あなたのアウトプットの質と量を"5倍"にする、『人とAIの共創黄金比「10:80:10」の法則』。 
 
-*人とAIの最適な役割分担を設計し、あなたのアウトプットを5倍にする実践原理*
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Language](https://img.shields.io/badge/Language-Japanese-blue)](https://github.com/Leading-AI-IO/saas-is-dead-the-next-ai-business-model/blob/main/docs)
 
-*初版: 2026年4月*
-*ライセンス: CC BY 4.0*
+<p align="left">
+  <img src="../../assets/ogp_design.png" width="100%">
+</p>
 
----
-
-> あなたのアウトプットの質と量を"5倍"にする、人とAIの最適な役割分担の原理。
+<br>
 
 ---
 
