@@ -7,7 +7,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](http://creativecommons.org/licenses/by/4.0/)
 
 <p align="left">
-  <img src="../../assets/ogp_design.png" width="80%">
+  <img src="../../assets/ogp_design.png" width="100%">
 </p>
 
 ---
