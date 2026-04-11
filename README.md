@@ -62,6 +62,7 @@ Gallupが22,368名を対象に実施した調査によれば、AIを職場で使
 | **The Redesign of Design Strategy** | デザイン戦略の再定義。IDEO崩壊の構造分析を含む | [GitHub](https://github.com/Leading-AI-IO/design-strategy-in-the-ai-era) |
 | **The Orchestrator** | AI時代に最も希少な人材像「オーケストレーター」を世界で初めて定義 | [GitHub](https://github.com/Leading-AI-IO/the-orchestrator-in-the-ai-era) |
 | **Advertising, Redesigned** | AI時代の広告の未来を、7社の戦略と構造分析から描くOSS書籍 | [GitHub](https://github.com/Leading-AI-IO/advertising-redesigned) |
+| **The Structural Shift from SaaS** | SaaSからService-as-a-Softwareへの構造的転換。Next SaaS ビジネスモデル [GitHub](https://github.com/Leading-AI-IO/saas-is-dead-the-next-ai-business-model)  |
 
 ---
 
