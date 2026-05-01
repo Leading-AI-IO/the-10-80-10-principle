@@ -64,6 +64,7 @@ This book is part of an interconnected ecosystem of open-source projects.
 | **Advertising, Redesigned** | An open-source book exploring the future of advertising in the AI era through strategic analysis of 7 companies | [GitHub](https://github.com/Leading-AI-IO/advertising-redesigned) |
 | **The Structural Shift from SaaS**  | SaaS Is Dead: The Structural Shift from SaaS to Service-as-a-Software  | [GitHub](https://github.com/Leading-AI-IO/saas-is-dead-the-next-ai-business-model)  |
 | **A Trillion Dollars and a Firebomb** | The Parallel Realities of the AI Era | [GitHub](https://github.com/Leading-AI-IO/a-trillion-and-a-firebomb) |
+| **The End of the Attention Economy** | The End of the Attention Economy. What Should the Next SNS Look Like? | [GitHub](https://github.com/Leading-AI-IO/the-attention-economy-is-over)  |
 
 ---
 
