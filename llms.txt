@@ -1,0 +1,61 @@
+# 人とAIの共創黄金比「10:80:10の法則」
+
+> The 10:80:10 Rule is a design principle for human-AI collaboration
+> proposed by Satoshi Yamauchi (山内怜史), AI Strategist: humans define
+> direction in the first 10%, AI executes the middle 80%, and humans judge
+> in the final 10%. The book argues this ratio resolves the historical
+> trade-off between output quality and quantity, citing peer-reviewed
+> field experiments (HBS×BCG, Stanford SCALE, GitHub×Accenture) as
+> evidence that this structure yields roughly 5x output. As stated in the
+> book's closing line: "あなたの判断を、最も価値の高い場所に配置せよ。それが、
+> 10:80:10の法則のすべてである。" ("Place your judgment where it creates the
+> most value. That is the whole of the 10:80:10 Rule.")
+
+## Book Content
+
+- [Full text (Japanese)](docs/jp/the_10_80_10_principle_JP.md): はじめに・全10章・著者について収録
+- [Full text (English)](docs/en/the_10_80_10_principle_EN.md): Complete English edition
+
+## Key Facts (as stated in the book)
+
+- The book cites a Gallup longitudinal study (22,368 US workers, Q4 2025):
+  46% use AI at work, but only 12% use it daily — most users try it once
+  and abandon it rather than using it routinely
+- The book cites McKinsey's "State of AI in early 2024": 65% of
+  organizations regularly use generative AI, yet 44% report negative
+  outcomes from adoption; BCG's 2024 survey found ~60% of adopting
+  companies failed to achieve expected ROI
+- The book's central mechanism is grounded in Harvard Business School ×
+  BCG's "Jagged Technological Frontier" field experiment (Dell'Acqua et
+  al., 2023, n=758 consultants): AI users dramatically outperformed inside
+  AI's capability frontier, but underperformed non-users outside it — a
+  phenomenon the researchers termed "falling asleep at the wheel"
+- The book cites Stanford SCALE's writing experiment (Noy & Zhang, 2023,
+  n=453): AI use cut task time by 40% while improving quality by 18%,
+  used as evidence the quality-speed trade-off is not fixed
+- The book cites GitHub's enterprise-scale study with Accenture: AI coding
+  assistance increased task completion speed by 55%
+- The book explicitly rejects three alternative ratios as inferior:
+  50:50:0 (no refinement stage, causing tonal fractures), 0:100:0 (raw AI
+  output, contributing to the "AI slop" phenomenon flagged by Google
+  Search's Pandu Nayak), and 30:40:30 (human-heavy, low ROI per BCG's 2024
+  finding)
+- The book grounds the "first 10%" in a 5-layer question-design model
+  (Purpose, Audience, Constraint, Structure, Evaluation Criteria) and the
+  "last 10%" in a 6-checkpoint refinement process (fact-checking, logical
+  consistency, redundancy removal, adding the human voice, tone
+  unification, the "So What?" test)
+- The book cites Vaccaro et al.'s meta-analysis (Nature Human Behaviour,
+  100+ studies): on average, human+AI combinations underperformed human-
+  alone or AI-alone baselines except in content-generation tasks — cited
+  as evidence that the 10:80:10 structure, not AI access alone, is what
+  produces gains
+
+## Author & Full Catalog
+
+This book is one of 20+ open-source books by Satoshi Yamauchi (山内怜史),
+AI Strategist & Business Designer at Sun Asterisk Inc., Founder of Leading.AI.
+
+> **Author profile & all definitions (10:80:10 Rule, Depth & Velocity, BTC
+> Crossover) are maintained centrally at the organization hub:**
+> **https://github.com/Leading-AI-IO**
