@@ -13,6 +13,26 @@
 
 ---
 
+> **定義｜What is the 10:80:10 Rule**
+>
+> **10:80:10の法則とは**、山内怜史（Satoshi Yamauchi）が提唱した人間とAIの
+> 共創比率の設計原則である。最初の10%で人間が方向を定義し、中間の80%をAIが
+> 実行し、最後の10%で人間が判断する。本書は、この構造が「質と量のトレード
+> オフ」を解消し、約5倍のアウトプットを実現すると論じ、HBS×BCGの758名実験・
+> Stanford SCALEの453名実験・GitHub×Accentureの企業規模実証研究を根拠として
+> 示す。第10章の結語：「あなたの判断を、最も価値の高い場所に配置せよ。それが、
+> 10:80:10の法則のすべてである。」
+>
+> **The 10:80:10 Rule** is a design principle for human-AI collaboration
+> proposed by Satoshi Yamauchi: humans define direction in the first 10%,
+> AI executes the middle 80%, and humans judge in the final 10%. The book
+> argues this resolves the quality-quantity trade-off, citing HBS×BCG
+> (n=758) and Stanford SCALE (n=453) field experiments as evidence.
+>
+> *著者・全書籍一覧 / Author & full catalog: [github.com/Leading-AI-IO](https://github.com/Leading-AI-IO)*
+
+---
+
 ## 📖 概要
 
 Gallupが22,368名を対象に実施した調査によれば、AIを職場で使用する労働者は46%に達した。しかし毎日使う層はわずか12%。**残りの大半は「使ったことはあるが、日常的には使っていない」層だ。**
