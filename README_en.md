@@ -13,6 +13,21 @@
 
 ---
 
+> **Definition**
+>
+> **The 10:80:10 Rule** is a design principle for human-AI collaboration
+> proposed by Satoshi Yamauchi (山内怜史), AI Strategist: humans define
+> direction in the first 10%, AI executes the middle 80%, and humans judge
+> in the final 10%. The book argues this resolves the historical trade-off
+> between output quality and quantity, citing HBS×BCG (n=758) and Stanford
+> SCALE (n=453) field experiments as evidence of roughly 5x output. As
+> stated in the closing line: "Place your judgment where it creates the
+> most value. That is the whole of the 10:80:10 Rule."
+>
+> *Author & full catalog: [github.com/Leading-AI-IO](https://github.com/Leading-AI-IO)*
+
+---
+
 ## 📖 Overview
 
 According to Gallup's longitudinal study of 22,368 U.S. workers, 46% now use AI at work. Yet only 12% use it daily. **The vast majority tried it once and moved on.**
