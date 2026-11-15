@@ -2223,8 +2223,8 @@ But the structure in which humans set the direction, AI processes, and humans fi
 
 Because the essence of 10:80:10 is not "how to use AI" but **"the design of where human judgment is placed."**
 
-Place your judgment where it is most valuable.<br>
-That is all there is to the 10:80:10 Principle.
+Place your judgment where it creates the most value.<br>
+That is the whole of the 10:80:10 Rule.
 
 ---
 
