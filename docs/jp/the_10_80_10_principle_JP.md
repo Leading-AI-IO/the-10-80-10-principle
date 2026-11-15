@@ -116,13 +116,15 @@ AIの性能の問題ではない。使い方の設計が根本的に間違って
 **第3層: 判断と責任。** 「これを世に出すか否か」を最終評価し、品質と結果に対する責任を持ち、最終成果物を仕上げる。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     L1["第1層: 方向の決定<br/>何を・なぜ・誰のために"] --> L2["第2層: 実行と処理<br/>調査・分析・構造化・ドラフト"]
     L2 --> L3["第3層: 判断と責任<br/>最終評価・品質保証・公開判断"]
 
-    style L1 fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
-    style L2 fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style L3 fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
+    style L1 fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    style L2 fill:#d0d0d1,stroke:#959596,color:#111213,stroke-width:1.5px
+    style L3 fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 ここで問いを立てる。
@@ -178,6 +180,7 @@ D&Vは、「深さ」と「速度」を同時に追求する知的生産の方�
 「10:80:10の法則」は、人間が「深さ」を担い、AIが「速度」を担う分業構造によって、このトレードオフを構造的に解消する。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "従来モデル"
         T1["深さ ⇔ 速度<br/>トレードオフ"]
@@ -188,14 +191,16 @@ graph TB
         T2 --- T3
     end
 
-    style T1 fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style T2 fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style T3 fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:2px
+    style T1 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style T2 fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    style T3 fill:#b6b7b8,stroke:#838384,color:#111213,stroke-width:1.5px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 実証データもこの構造を支持する。
 GitHubがAccentureと共同で実施したGitHub Copilotの企業規模実証研究では、AIコーディングアシスタントの活用によりタスク完了速度が55%向上した。<br>
-Stanford SCALEのNoy & Zhangによるライティング実験（453名対象）でも、AI使用により作業時間が40%短縮され、品質が18%向上した。<br>
+（2026年11月15日訂正）<br>
+MIT（マサチューセッツ工科大学）の経済学者Shakked NoyとWhitney Zhangによるライティング実験（453名対象）でも、AI使用により作業時間が40%短縮され、品質が18%向上した。<br>
 速度と品質が同時に向上している。トレードオフの崩壊だ。
 
 ### 1.5 なぜ5倍なのか
@@ -269,7 +274,8 @@ ChatGPTがGPT-5になっても。ClaudeがClaude 5になっても。<br>
 > - McKinsey Global Institute. (2023). *The Economic Potential of Generative AI*. https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier
 > - McKinsey. (2024). *The state of AI in early 2024*. https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
 > - Boston Consulting Group. (2024). *From Potential to Profit with GenAI*. https://www.bcg.com/publications/2024/from-potential-to-profit-with-genai
-> - Noy, S. & Zhang, W. (2023). "Experimental Evidence on the Productivity Effects of Generative AI." *Stanford SCALE*. https://www.science.org/doi/10.1126/science.adh2586
+> - （2026年11月15日訂正）<br>
+>   Noy, S. & Zhang, W. (2023). "Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence." *Science*, 381(6654), 187–192. https://www.science.org/doi/10.1126/science.adh2586
 > - GitHub. (2024). "Quantifying GitHub Copilot's Impact in the Enterprise with Accenture." https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/
 > - MIT Sloan Management Review. (2024). "AI and the Workforce." https://sloanreview.mit.edu/projects/artificial-intelligence-and-business-strategy/
 
@@ -285,13 +291,15 @@ ChatGPTがGPT-5になっても。ClaudeがClaude 5になっても。<br>
 本章では、この3層を「10:80:10の法則」の正式な用語で精緻化し、各フェーズの具体的な構成要素を定義する。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A["🧠 Human Intent<br/>最初の10%"] -->|"方向を定める"| B["🤖 AI Execution<br/>中間の80%"]
     B -->|"大量処理"| C["🧠 Human Refinement<br/>最後の10%"]
-    
-    style A fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:3px
-    style B fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style C fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:3px
+
+    style A fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    style B fill:#d0d0d1,stroke:#959596,color:#111213,stroke-width:1.5px
+    style C fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 **最初の10%: Human Intent（人間の意図）**
@@ -371,6 +379,7 @@ Boston Consulting Groupの2024年の調査では、生成AIを導入した企業
 **10:80:10の最適性。**
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "❌ 50:50:0"
         A1["人間 50%"] --- A2["AI 50%"]
@@ -389,18 +398,19 @@ graph TB
         D2 --- D3["仕上げ 10%"]
     end
 
-    style A1 fill:#0f2b46,stroke:#666,color:#999,stroke-width:1px
-    style A2 fill:#0f2b46,stroke:#666,color:#999,stroke-width:1px
-    style A3 fill:#0f2b46,stroke:#666,color:#ff6b6b,stroke-width:1px
-    style B1 fill:#0f2b46,stroke:#666,color:#999,stroke-width:1px
-    style B2 fill:#0f2b46,stroke:#666,color:#999,stroke-width:1px
-    style B3 fill:#0f2b46,stroke:#666,color:#ff6b6b,stroke-width:1px
-    style C1 fill:#0f2b46,stroke:#666,color:#999,stroke-width:1px
-    style C2 fill:#0f2b46,stroke:#666,color:#999,stroke-width:1px
-    style C3 fill:#0f2b46,stroke:#666,color:#ff6b6b,stroke-width:1px
-    style D1 fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
-    style D2 fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style D3 fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
+    style A1 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style A2 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style B1 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style B2 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style C1 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style C2 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style A3 fill:#ffffff,stroke:#7f8082,color:#4b4c4e,stroke-width:1px,stroke-dasharray:4 3
+    style B3 fill:#ffffff,stroke:#7f8082,color:#4b4c4e,stroke-width:1px,stroke-dasharray:4 3
+    style C3 fill:#ffffff,stroke:#7f8082,color:#4b4c4e,stroke-width:1px,stroke-dasharray:4 3
+    style D1 fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    style D2 fill:#d0d0d1,stroke:#959596,color:#111213,stroke-width:1.5px
+    style D3 fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 最初の10%に思考を集中させることで、方向性の精度が最大化される。<br>
@@ -557,17 +567,19 @@ IBM Systems Sciences Instituteの後続研究でも、この「1:10:100の法則
 効果的な問いは、5つの層で構成される。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     P["🎯 Purpose<br/>目的層"] --> Au["👤 Audience<br/>対象層"]
     Au --> Co["🚫 Constraint<br/>制約層"]
     Co --> St["🏗️ Structure<br/>構造層"]
     St --> Ev["✅ Evaluation<br/>評価基準層"]
 
-    style P fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
-    style Au fill:#d48806,stroke:#0f2b46,color:#0f2b46,stroke-width:2px
-    style Co fill:#b37300,stroke:#0f2b46,color:#ffffff,stroke-width:2px
-    style St fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style Ev fill:#0f2b46,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
+    style P fill:#2b2c2d,stroke:#111213,color:#ffffff,stroke-width:3px
+    style Au fill:#4f5052,stroke:#38393b,color:#ffffff,stroke-width:1.5px
+    style Co fill:#7f8082,stroke:#5b5c5d,color:#111213,stroke-width:1.5px
+    style St fill:#b6b7b8,stroke:#838384,color:#111213,stroke-width:1.5px
+    style Ev fill:#e4e4e5,stroke:#a4a4a4,color:#111213,stroke-width:1.5px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 **第1層: Purpose（目的層）**
@@ -789,7 +801,8 @@ AIの能力範囲内のタスクにおいてAI使用グループの品質が12.2
 この効果は「増幅」の構造と正確に一致する——入力（最初の10%の問い設計）の質が高ければ、AIの処理（80%）の出力品質も高くなる。<br>
 NBERのBrynjolfsson, Li, Raymondによる5,179名のコールセンター従業員を対象とした研究でも、<br>
 AI支援によって生産性が平均14%向上し、特にスキル下位層では34%の向上が確認された。<br>
-Stanford SCALEのNoy & Zhangによる453名のライティング実験では、AI使用で作業時間が40%短縮され、品質が18%向上した。
+（2026年11月15日訂正）<br>
+MIT（マサチューセッツ工科大学）の経済学者Shakked NoyとWhitney Zhangによる453名のライティング実験では、AI使用で作業時間が40%短縮され、品質が18%向上した。
 
 しかし、これらの研究が同時に示したのは、AIの効果が入力の質に強く依存するという事実だ。<br>
 HBS×BCG研究では、AIの能力範囲外のタスクにおいて、AI使用グループの方が非使用グループよりも成績が悪化した。<br>
@@ -824,6 +837,7 @@ Gemini 1.5 Proが100万トークンのコンテキストウィンドウを実装
 **コンテキストの4要素:**
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     C["コンテキスト<br/>エンジニアリング"]
     C --> D["📚 Domain<br/>ドメイン知識"]
@@ -831,11 +845,12 @@ graph TB
     C --> A["👥 Audience<br/>対象知識"]
     C --> P["📊 Progress<br/>進捗知識"]
 
-    style C fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
-    style D fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style S fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style A fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style P fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
+    style C fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    style D fill:#5f6062,stroke:#444546,color:#ffffff,stroke-width:1.5px
+    style S fill:#7f8082,stroke:#5b5c5d,color:#111213,stroke-width:1.5px
+    style A fill:#a2a2a4,stroke:#747476,color:#111213,stroke-width:1.5px
+    style P fill:#c4c5c6,stroke:#8d8d8e,color:#111213,stroke-width:1.5px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 1. **ドメイン知識（Domain Context）。** <br>
@@ -869,6 +884,7 @@ AIは既出の概念を参照し、論理の一貫性を保ち、重複を避け
 **反復の5段階モデル:**
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     S1["1. 骨格生成"] --> S2["2. 肉付け"]
     S2 --> S3["3. エビデンス<br/>挿入"]
@@ -876,11 +892,12 @@ graph LR
     S4 --> S5["5. 圧縮"]
     S5 -.->|"必要に応じて<br/>フィードバック"| S1
 
-    style S1 fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style S2 fill:#122d47,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style S3 fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style S4 fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style S5 fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
+    style S1 fill:#e4e4e5,stroke:#a4a4a4,color:#111213,stroke-width:1.5px
+    style S2 fill:#c4c5c6,stroke:#8d8d8e,color:#111213,stroke-width:1.5px
+    style S3 fill:#a2a2a4,stroke:#747476,color:#111213,stroke-width:1.5px
+    style S4 fill:#6f7072,stroke:#4f5052,color:#ffffff,stroke-width:1.5px
+    style S5 fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 **第1段階: 骨格生成。** <br>
@@ -985,7 +1002,8 @@ After（10:80:10適用）:
 > **第4章 参考文献**
 > - Dell'Acqua, F., et al. (2023). "Navigating the Jagged Technological Frontier." *HBS Working Paper*, No. 24-013. https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a1c6-c72fb70c7571.pdf
 > - Brynjolfsson, E., Li, D., & Raymond, L. (2023). "Generative AI at Work." *NBER Working Paper*, No. 31161. https://www.nber.org/papers/w31161
-> - Noy, S. & Zhang, W. (2023). "Experimental Evidence on the Productivity Effects of Generative AI." *Stanford SCALE*. https://www.science.org/doi/10.1126/science.adh2586
+> - （2026年11月15日訂正）<br>
+>   Noy, S. & Zhang, W. (2023). "Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence." *Science*, 381(6654), 187–192. https://www.science.org/doi/10.1126/science.adh2586
 > - Stanford University HAI. (2024). *AI Index Report 2024*. https://aiindex.stanford.edu/report/
 
 <br>
@@ -1372,15 +1390,17 @@ AIが整理した情報に対して、自分独自の解釈、体験との接続
 意図の劣化は、以下の3つの段階で発生する。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     L["リーダーの<br/>意図 100%"] -->|"暗黙知の<br/>未伝達"| M["マネージャー<br/>の理解 70%"]
     M -->|"伝言ゲーム<br/>の劣化"| Me["メンバーの<br/>理解 50%"]
     Me -->|"コンテキスト<br/>の断片化"| AI["AIへの<br/>プロンプト 30%"]
 
-    style L fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
-    style M fill:#d48806,stroke:#0f2b46,color:#0f2b46,stroke-width:2px
-    style Me fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style AI fill:#0f2b46,stroke:#ff6b6b,color:#ff6b6b,stroke-width:3px
+    style L fill:#262728,stroke:#111213,color:#ffffff,stroke-width:3px
+    style M fill:#5f6062,stroke:#444546,color:#ffffff,stroke-width:1.5px
+    style Me fill:#a2a2a4,stroke:#747476,color:#111213,stroke-width:1.5px
+    style AI fill:#e4e4e5,stroke:#a4a4a4,color:#111213,stroke-width:1.5px,stroke-dasharray:4 3
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 **第1段階: 暗黙知の未伝達。** 
@@ -1603,6 +1623,7 @@ AIの出力を批判的に評価する能力は、専門性の深さに依存す
 代わりに浮上するのが「π（パイ）字型人材」──2つ以上の深い専門性を持つ人材──である。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "T字型（従来）"
         T1["─── 幅広い教養 ───"]
@@ -1614,11 +1635,12 @@ graph TB
         P3["│<br/>専門B<br/>│"]
     end
 
-    style T1 fill:#0f2b46,stroke:#666,color:#999,stroke-width:1px
-    style T2 fill:#0f2b46,stroke:#666,color:#999,stroke-width:1px
-    style P1 fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
-    style P2 fill:#0f2b46,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style P3 fill:#0f2b46,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
+    style T1 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style T2 fill:#f7f7f7,stroke:#d0d0d1,color:#8a8b8d,stroke-width:1px
+    style P1 fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    style P2 fill:#7f8082,stroke:#5b5c5d,color:#111213,stroke-width:1.5px
+    style P3 fill:#7f8082,stroke:#5b5c5d,color:#111213,stroke-width:1.5px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 複数の専門領域の交差点で、AIにはできない独自の統合を行う能力が、AI時代の最大の競争優位になる。
@@ -1739,6 +1761,7 @@ Warren Buffettは投資における複利の力を繰り返し強調してきた
 10:80:10を1回実践するたびに、以下の3つの「資産」が蓄積される。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     P["10:80:10<br/>の実践"] --> Q["📋 問いの<br/>ライブラリ"]
     P --> QS["📏 品質基準の<br/>精緻化"]
@@ -1748,11 +1771,12 @@ graph TB
     CA --> N
     N -->|"複利的<br/>成長"| P
 
-    style P fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
-    style Q fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style QS fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style CA fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style N fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
+    style P fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    style Q fill:#5f6062,stroke:#444546,color:#ffffff,stroke-width:1.5px
+    style QS fill:#7f8082,stroke:#5b5c5d,color:#111213,stroke-width:1.5px
+    style CA fill:#a2a2a4,stroke:#747476,color:#111213,stroke-width:1.5px
+    style N fill:#d0d0d1,stroke:#959596,color:#111213,stroke-width:1.5px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 **第一に、問いのライブラリ。** <br>
@@ -2068,15 +2092,17 @@ AIが返してきた出力を、10分間だけ批判的に読む。<br>
 10:80:10の実践を定着させるための、4段階のロードマップを提示する。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Helvetica, Arial, sans-serif','lineColor':'#7f8082','primaryTextColor':'#111213','clusterBkg':'#fafafa','clusterBorder':'#b6b7b8','titleColor':'#363738','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     S1["第1段階<br/>観察<br/>1-2週"] --> S2["第2段階<br/>小さな実験<br/>3-4週"]
     S2 --> S3["第3段階<br/>主要業務<br/>2-3ヶ月"]
     S3 --> S4["第4段階<br/>最適化と拡張<br/>4ヶ月〜"]
 
-    style S1 fill:#0f2b46,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style S2 fill:#122d47,stroke:#f59e0b,color:#ffffff,stroke-width:2px
-    style S3 fill:#1a3a5c,stroke:#f59e0b,color:#f59e0b,stroke-width:2px
-    style S4 fill:#f59e0b,stroke:#0f2b46,color:#0f2b46,stroke-width:3px
+    style S1 fill:#e4e4e5,stroke:#a4a4a4,color:#111213,stroke-width:1.5px
+    style S2 fill:#b6b7b8,stroke:#838384,color:#111213,stroke-width:1.5px
+    style S3 fill:#7f8082,stroke:#5b5c5d,color:#111213,stroke-width:1.5px
+    style S4 fill:#363738,stroke:#111213,color:#ffffff,stroke-width:3px
+    linkStyle default stroke:#7f8082,stroke-width:1.5px
 ```
 
 **第1段階（1〜2週目）: 観察。** 
