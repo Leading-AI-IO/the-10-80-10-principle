@@ -1,0 +1,35 @@
+{
+  "title": "The 10-80-10 Principle: The Optimal Balance for Human-AI Synergy",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "publication_date": "2026-04-08",
+  "description": "<p>The 10:80:10 Rule is a design principle for human-AI collaboration proposed by Satoshi Yamauchi: humans define direction in the first 10%, AI executes the middle 80%, and humans judge in the final 10%. The book argues that this structure resolves the quality-quantity trade-off, citing the HBS×BCG field experiment (n=758) and the MIT writing experiment by Noy &amp; Zhang (Science, 2023; n=453), among other studies. First published on GitHub on 8 April 2026. This archived version (15 November 2026) contains the full text in Japanese and its complete English translation.</p><p>10:80:10の法則は、山内怜史が提唱した人間とAIの共創比率の設計原則である。最初の10%で人間が方向を定義し、中間の80%をAIが実行し、最後の10%で人間が判断する。2026年4月8日にGitHubで初版を公開。この版（2026年11月15日）は、日本語の全文と、その英語の全訳を収録する。</p>",
+  "creators": [
+    {
+      "name": "Yamauchi, Satoshi",
+      "affiliation": "Leading.AI LLC"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "language": "jpn",
+  "keywords": [
+    "10:80:10 Rule",
+    "human-AI collaboration",
+    "generative AI",
+    "productivity",
+    "knowledge work",
+    "10:80:10の法則"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Leading-AI-IO/the-10-80-10-principle",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://note.com/satoshi_yamauchi/n/nfd8809a67666",
+      "relation": "isVersionOf",
+      "scheme": "url"
+    }
+  ]
+}
