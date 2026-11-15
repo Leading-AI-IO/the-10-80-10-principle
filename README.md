@@ -17,17 +17,20 @@
 >
 > **10:80:10の法則とは**、山内怜史（Satoshi Yamauchi）が提唱した人間とAIの
 > 共創比率の設計原則である。最初の10%で人間が方向を定義し、中間の80%をAIが
-> 実行し、最後の10%で人間が判断する。本書は、この構造が「質と量のトレード
-> オフ」を解消し、約5倍のアウトプットを実現すると論じ、HBS×BCGの758名実験・
-> Stanford SCALEの453名実験・GitHub×Accentureの企業規模実証研究を根拠として
-> 示す。第10章の結語：「あなたの判断を、最も価値の高い場所に配置せよ。それが、
+> 実行し、最後の10%で人間が判断する。<br>
+> （2026年11月15日訂正）<br>
+> 本書は、この構造が「質と量のトレードオフ」を解消し、約5倍のアウトプットを
+> 実現すると論じ、HBS×BCGの758名実験・MITのNoy & Zhangによる453名実験・
+> GitHub×Accentureの企業規模実証研究を根拠として示す。第10章の結語：「あなたの判断を、最も価値の高い場所に配置せよ。それが、
 > 10:80:10の法則のすべてである。」
 >
 > **The 10:80:10 Rule** is a design principle for human-AI collaboration
 > proposed by Satoshi Yamauchi: humans define direction in the first 10%,
-> AI executes the middle 80%, and humans judge in the final 10%. The book
-> argues this resolves the quality-quantity trade-off, citing HBS×BCG
-> (n=758) and Stanford SCALE (n=453) field experiments as evidence.
+> AI executes the middle 80%, and humans judge in the final 10%.<br>
+> (Corrected November 15, 2026)<br>
+> The book argues this resolves the quality-quantity trade-off, citing the
+> HBS×BCG field experiment (n=758) and the MIT writing experiment by
+> Noy & Zhang (n=453) as evidence.
 >
 > *著者・全書籍一覧 / Author & full catalog: [github.com/Leading-AI-IO](https://github.com/Leading-AI-IO)*
 
@@ -51,7 +54,8 @@ Gallupが22,368名を対象に実施した調査によれば、AIを職場で使
 
 **本書は、AI時代の「思考のOS」を提供する。**
 
-ツールは入れ替わる。モデルは進化する。だが、10:80:10──人間が方向と判断を握り、AIが実行を加速する──という構造原則は、AI時代が続く限り不変だ。HBS×BCGの758名フィールド実験、Stanford SCALEの453名ライティング実験、GitHubの企業規模実証研究を横断参照しながら、認知科学・組織論・創造性研究の知見と実践的なBefore/Afterシナリオの両面から、この思考OSの全レイヤーを解体する。
+（2026年11月15日訂正）<br>
+ツールは入れ替わる。モデルは進化する。だが、10:80:10──人間が方向と判断を握り、AIが実行を加速する──という構造原則は、AI時代が続く限り不変だ。HBS×BCGの758名フィールド実験、MITのNoy & Zhangによる453名ライティング実験、GitHubの企業規模実証研究を横断参照しながら、認知科学・組織論・創造性研究の知見と実践的なBefore/Afterシナリオの両面から、この思考OSの全レイヤーを解体する。
 
 ---
 

@@ -18,9 +18,12 @@
 > **The 10:80:10 Rule** is a design principle for human-AI collaboration
 > proposed by Satoshi Yamauchi (山内怜史), AI Strategist: humans define
 > direction in the first 10%, AI executes the middle 80%, and humans judge
-> in the final 10%. The book argues this resolves the historical trade-off
-> between output quality and quantity, citing HBS×BCG (n=758) and Stanford
-> SCALE (n=453) field experiments as evidence of roughly 5x output. As
+> in the final 10%.<br>
+> (Corrected November 15, 2026)<br>
+> The book argues this resolves the historical trade-off
+> between output quality and quantity, citing the HBS×BCG field experiment
+> (n=758) and the MIT writing experiment by Noy & Zhang (n=453) as evidence
+> of roughly 5x output. As
 > stated in the closing line: "Place your judgment where it creates the
 > most value. That is the whole of the 10:80:10 Rule."
 >
@@ -46,7 +49,8 @@ By consciously designing this ratio, individual output reaches 5x the convention
 
 **This book provides the "Thinking OS" for the AI era.**
 
-Tools change. Models evolve. But the structural principle of 10:80:10 — humans own direction and judgment, AI accelerates execution — remains constant as long as the AI era endures. Drawing on the HBS×BCG field experiment with 758 participants, Stanford SCALE's 453-participant writing study, and GitHub's enterprise-scale research, this book dissects every layer of this Thinking OS through the dual lenses of cognitive science, organizational theory, creativity research, and practical Before/After scenarios.
+(Corrected November 15, 2026)<br>
+Tools change. Models evolve. But the structural principle of 10:80:10 — humans own direction and judgment, AI accelerates execution — remains constant as long as the AI era endures. Drawing on the HBS×BCG field experiment with 758 participants, the 453-participant writing study by MIT economists Noy and Zhang, and GitHub's enterprise-scale research, this book dissects every layer of this Thinking OS through the dual lenses of cognitive science, organizational theory, creativity research, and practical Before/After scenarios.
 
 ---
 
