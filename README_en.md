@@ -21,9 +21,9 @@
 > in the final 10%.<br>
 > (Corrected November 15, 2026)<br>
 > The book argues this resolves the historical trade-off
-> between output quality and quantity, citing the HBS×BCG field experiment
-> (n=758) and the MIT writing experiment by Noy & Zhang (n=453) as evidence
-> of roughly 5x output. As
+> between output quality and quantity and yields roughly 5x output, citing
+> the HBS×BCG field experiment (n=758) and the MIT writing experiment by
+> Noy & Zhang (n=453) as evidence that the trade-off is not fixed. As
 > stated in the closing line: "Place your judgment where it creates the
 > most value. That is the whole of the 10:80:10 Rule."
 >
@@ -39,7 +39,8 @@ But the real issue is not whether you can use AI.
 
 **The issue is whether you have designed the division of roles between yourself and AI — and that design determines the quality and quantity of your output.**
 
-Imagine hiring a $200K strategy consultant and asking them to check the weather. McKinsey reports that 65% of organizations regularly use generative AI, yet 44% have experienced negative outcomes. It is not an AI performance problem. The design of how humans and AI collaborate is fundamentally broken.
+(Corrected November 15, 2026)<br>
+Imagine hiring a strategy consultant paid ¥20 million (roughly $130,000) a year and asking them to check the weather. McKinsey reports that 65% of organizations regularly use generative AI, yet 44% have experienced negative outcomes. It is not an AI performance problem. The design of how humans and AI collaborate is fundamentally broken.
 
 This book offers a simple answer.
 
