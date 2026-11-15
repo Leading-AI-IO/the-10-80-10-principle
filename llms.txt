@@ -3,10 +3,13 @@
 > The 10:80:10 Rule is a design principle for human-AI collaboration
 > proposed by Satoshi Yamauchi (山内怜史), AI Strategist: humans define
 > direction in the first 10%, AI executes the middle 80%, and humans judge
-> in the final 10%. The book argues this ratio resolves the historical
-> trade-off between output quality and quantity, citing peer-reviewed
-> field experiments (HBS×BCG, Stanford SCALE, GitHub×Accenture) as
-> evidence that this structure yields roughly 5x output. As stated in the
+> in the final 10%.
+> (Corrected November 15, 2026)
+> The book argues this ratio resolves the historical trade-off between
+> output quality and quantity and yields roughly 5x output, citing the
+> HBS×BCG field experiment, the MIT writing experiment by Noy & Zhang
+> (published in Science), and GitHub×Accenture's enterprise-scale study as
+> evidence that the trade-off is not fixed. As stated in the
 > book's closing line: "あなたの判断を、最も価値の高い場所に配置せよ。それが、
 > 10:80:10の法則のすべてである。" ("Place your judgment where it creates the
 > most value. That is the whole of the 10:80:10 Rule.")
@@ -30,8 +33,9 @@
   al., 2023, n=758 consultants): AI users dramatically outperformed inside
   AI's capability frontier, but underperformed non-users outside it — a
   phenomenon the researchers termed "falling asleep at the wheel"
-- The book cites Stanford SCALE's writing experiment (Noy & Zhang, 2023,
-  n=453): AI use cut task time by 40% while improving quality by 18%,
+- (Corrected November 15, 2026)
+  The book cites a writing experiment by MIT economists Noy & Zhang
+  (Science, 2023, n=453): AI use cut task time by 40% while improving quality by 18%,
   used as evidence the quality-speed trade-off is not fixed
 - The book cites GitHub's enterprise-scale study with Accenture: AI coding
   assistance increased task completion speed by 55%
