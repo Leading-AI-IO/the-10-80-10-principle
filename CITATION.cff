@@ -8,6 +8,7 @@ authors:
 version: "1.1"
 date-released: "2026-11-15"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.24237103
 repository-code: "https://github.com/Leading-AI-IO/the-10-80-10-principle"
 keywords:
   - 10:80:10 Rule
